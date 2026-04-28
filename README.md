@@ -59,7 +59,6 @@ Veja mais detalhes em: [Architecture](docs/architecture.md)
 ├── .gitignore
 └── README.md
 ```
-
 ---
 
 ## 📊 Análise Exploratória (EDA)
@@ -112,7 +111,7 @@ Com base na análise, as principais recomendações para hospitais são:
 
 ---
 
-## 📌 Etapas futuras / próximas etapas
+## 📌 Etapas futuras
 
 - Implementar validação de qualidade de dados  
 - Adicionar orquestração (ex: Airflow)  
