@@ -8,10 +8,10 @@ O trabalho integra práticas de engenharia de dados e análise exploratória par
 
 ## 🚀 Visão Geral
 
-O pipeline segue uma arquitetura em camadas (Medallion Architecture), transformando dados brutos em informações prontas para análise:
+O pipeline segue uma arquitetura em camadas bronze, silver e gold (Medallion Architecture), transformando dados brutos em informações prontas para análise:
 
 - **Ingestão (Raw)**: Upload de arquivos CSV para o Amazon S3  
-- **Processamento (ETL)**: Transformações com AWS Glue, utilizando PySpark e catalogando os dados no Glue Data Catalog (aplicação de questionário do IBGE para tradução dos dados)
+- **Processamento (Silver)**: Transformações com AWS Glue, utilizando PySpark e catalogando os dados no Glue Data Catalog (aplicação de questionário do IBGE para tradução dos dados)
 - **Curadoria (Gold)**: Dados estruturados para consumo analítico e aplicação de engenharia de features
 - **Análise (EDA)**: Exploração e geração de insights com Python  
 
@@ -107,7 +107,7 @@ Com base na análise, as principais recomendações para hospitais são:
 
 - Construção de pipelines de dados em cloud AWS (S3, Glue, Glue Data Catalog, Athena)
 - Uso do AWS Glue, para ETL escalável  
-- Modelagem em arquitetura por camadas (raw → silver → gold)  
+- Modelagem em arquitetura por camadas (bronze → silver → gold)  
 - Aplicação de engenharia de features e análise exploratória com dados reais
 
 ---
