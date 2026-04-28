@@ -41,22 +41,22 @@ Veja mais detalhes em: [Architecture](docs/architecture.md)
 
 ## 📂 Estrutura do Repositório
 .
-└── docs/
-    ├── architecture.md
-    └── architecture.png
-    
+├── docs/
+│   ├── architecture.md
+│   └── architecture.png
+│
 ├── eda-notebook/
 │   └── covid-pnad-data-exploration.ipynb
-
+│
 ├── src/
 │   └── etl/
 │       ├── ingest/
 │       │   └── covid-pnad-ETL-job-csv-to-raw.ipynb
 │       └── transform/
 │           └── covid-pnad-notebook-ETL-job-raw-to-gold.ipynb
-
+│
 ├── .gitignore
-├── README.md
+└── README.md
 
 ---
 
