@@ -40,6 +40,7 @@ Veja mais detalhes em: [Architecture](docs/architecture.md)
 ---
 
 ## 📂 Estrutura do Repositório
+```bash
 .
 ├── docs/
 │   ├── architecture.md
@@ -57,6 +58,7 @@ Veja mais detalhes em: [Architecture](docs/architecture.md)
 │
 ├── .gitignore
 └── README.md
+```
 
 ---
 
