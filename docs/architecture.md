@@ -6,6 +6,10 @@ Este projeto implementa um pipeline de dados end-to-end em ambiente cloud AWS pa
 
 O fluxo de dados segue uma arquitetura em camadas (raw → gold), utilizando serviços da AWS para garantir escalabilidade e organização dos dados.
 
+## 🖼️ Diagrama da Arquitetura
+
+![Arquitetura do Projeto](./architecture.png)
+
 ## 🔄 Fluxo de Dados
 
 1. **Fonte de Dados**
